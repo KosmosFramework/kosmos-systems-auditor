@@ -3,9 +3,9 @@
 *	Added Literature Review 7-26-2025 (Solidify's OCF - ACC detects the breach, then PFC recalibrates belief, resulting in OCF decay.) ver. 1.1
 ******************************************************************************************************************************************************************************************************
 
-The Observer’s Collapse Function—a mechanism by which conscious observers sustain or dissolve systems through recursive belief.
+The Observerâ€™s Collapse Functionâ€”a mechanism by which conscious observers sustain or dissolve systems through recursive belief.
 
-The Observer’s Collapse Function Definition:
+The Observerâ€™s Collapse Function Definition:
 A system is unnatural if and only if its persistence depends on recursive belief from at least one conscious observer. Natural systems persist without such belief. C. Alden's Law - No Observers, no economy.
 
 Mechanism:
@@ -26,7 +26,7 @@ Examples:
 Applications
 A. Economics
 - Markets are mass-scale collapse functions (e.g., bank runs occur when consensus shatters).
-- Alden’s Law: "No observers ? no economy."
+- Aldenâ€™s Law: "No observers ? no economy."
 B. Artificial Intelligence
 - AI is unnatural if it requires human input (e.g., ChatGPT).
 - A self-improving AI independent of humans becomes natural.
@@ -45,11 +45,11 @@ The OCF of system \( S \) is:
 \boxed{\text{OCF}(S) = \frac{B_R \cdot D_C}{T_S}}
 \]  
 
-- \( B_R \) (Recursive Belief Factor): Fraction of system nodes requiring belief (0–1).  
+- \( B_R \) (Recursive Belief Factor): Fraction of system nodes requiring belief (0â€“1).  
   \[
   B_R = \frac{|\{n \in N : \text{belief-dependent}\}|}{|N|}
   \]  
-- \( D_C \) (Observer Dependency): Fraction of processes requiring conscious participation (0–1).  
+- \( D_C \) (Observer Dependency): Fraction of processes requiring conscious participation (0â€“1).  
   \[
   D_C = \frac{\int_0^T P_{\text{obs}}(t)  dt}{\int_0^T P_{\text{total}}(t)  dt}
   \]  
@@ -137,21 +137,21 @@ System Repair Protocols
 OCF Reduction Strategies  
 | Parameter | Intervention                  | Example                      |  
 |---------------|-----------------------------------|----------------------------------|  
-| ? \( B_R \)   | Decentralize control              | Replace CEOs with DAOs           |  
-| ? \( D_C \)   | Automate processes                | AI-driven tax collection         |  
-| ? \( T_S \)   | Embed passive resilience          | Blockchain forks                 |  
+| â†“ \( B_R \)   | Decentralize control              | Replace CEOs with DAOs           |  
+| â†“ \( D_C \)   | Automate processes                | AI-driven tax collection         |  
+| â†‘ \( T_S \)   | Embed passive resilience          | Blockchain forks                 |  
 
 Biomimetic Design  
 - Natural System Analogs:  
   - Ant colonies: Distributed agency (\( \text{OCF} \approx 0.1 \)).  
   - Forest ecosystems: Closed-loop materiality (\( \text{OCF} \approx 0.2 \)).  
 
-Neurobiological and Behavioral Foundations of the Observer’s Collapse Function
+Neurobiological and Behavioral Foundations of the Observerâ€™s Collapse Function
 
 Recursive Belief (B_R \) in System Participation
 Prefrontal Cortex as Belief Arbiter 
 [1] Dimoka, A. (2010)."What Does the Brain Tell Us About Trust and Distrust? Evidence from a Functional Neuroimaging Study." MIS Quarterly.  
-- Finding: PFC (BA 10) activation predicts trust in economic systems (fMRI, n=76, ß=0.72, p<0.001).  
+- Finding: PFC (BA 10) activation predicts trust in economic systems (fMRI, n=76, ÃŸ=0.72, p<0.001).  
 - OCF Link: Validates  B_R \ as measurable neural commitment to systems.  
 
 [2] Fehr, E., & Camerer, C.F. (2007). *"Social Neuroeconomics: The Neural Circuitry of Social Preferences."* Trends in Cognitive Sciences.  
@@ -164,13 +164,13 @@ Default Mode Network and System Legitimacy
 - OCF Link: Predicts OCF decay when DMN disengages.  
 
 Observer Dependency (D_R \) and Enforcement  
-Amygdala’s Role in Compliance  
+Amygdalaâ€™s Role in Compliance  
 [4] Tom, S.M., et al. (2007). "The Neural Basis of Loss Aversion in Decision-Making Under Risk." Neuron.  
-- Finding: Amygdala response to losses 2.3× stronger than gains (fMRI, n=24).  
+- Finding: Amygdala response to losses 2.3Ã— stronger than gains (fMRI, n=24).  
 - OCF Link: D_C \ enforced via threat of loss (jobs, status).  
 
 [5] De Martino, B., et al. (2010). "Amygdala Damage Eliminates Monetary Loss Aversion." PNAS.  
-- Finding: Urbach-Wiethe patients (amygdala lesions) don’t enforce unfair norms.  
+- Finding: Urbach-Wiethe patients (amygdala lesions) donâ€™t enforce unfair norms.  
 - OCF Link: Confirms amygdala as D_C \ enforcement mechanism.  
 
  2.2 Anterior Cingulate Cortex as Conflict Monitor  
@@ -184,7 +184,7 @@ Amygdala’s Role in Compliance
 
 Intrinsic Stability (T_S \) and System Resilience  
 Autonomic Regulation in Self-Sustaining Systems  
-[8] Thayer, J.F., & Lane, R.D. (2009). "Claude Bernard and the Heart–Brain Connection." Neuroscience & Biobehavioral Reviews.  
+[8] Thayer, J.F., & Lane, R.D. (2009). "Claude Bernard and the Heartâ€“Brain Connection." Neuroscience & Biobehavioral Reviews.  
 - Finding: Vagal tone predicts autonomous system maintenance (HRV studies).  
 - OCF Link: T_S \ correlates with parasympathetic resilience.  
 
@@ -211,4 +211,5 @@ These studies collectively demonstrate that:
 1. B_R \ is encoded in PFC valuation circuits (as systemic belief, not interpersonal.)
 2. D_R \ is enforced by amygdala-driven loss aversion  
 3. T_R \ reflects thermodynamic/autonomic resilience  
-4. OCF’s predicted collapse dynamics match behavioral data  
+4. OCFâ€™s predicted collapse dynamics match behavioral data  
+
