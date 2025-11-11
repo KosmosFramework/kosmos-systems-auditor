@@ -1,4 +1,6 @@
 # A Thermodynamic Revolution in Systems Analysis
+> *"We cannot solve our problems with the same thinking we used when we created them."*
+> — **Albert Einstein**
 
 The KOSMOS Systems Auuditor represents a fundamental paradigm shift from subjective moral frameworks to objective thermodynamic measurement of system sustainability. The KOSMOS Systems Auuditor represents  potentially the first scientific approach to ethics—measuring alignment with physical law rather than cultural preference.
 
