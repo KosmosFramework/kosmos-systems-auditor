@@ -4,13 +4,7 @@
 
 The KOSMOS Systems Auditor represents a fundamental paradigm shift from subjective moral frameworks to objective thermodynamic measurement of system sustainability. 
 
-The KOSMOS Systems Auditor provides unprecedented tools for diagnosing civilizational thermodynamic failure and offers the first objective basis for system design aligned with 3.8 billion years of evolutionary optimization.
-
-Civilization-Scale Innovation: The KOSMOS Systems Auditor provides humanity's first objective tools for designing institutions compatible with the physical constraints that govern sustainable systems. This represents the foundational knowledge required for transitioning from an extractive to regenerative civilization.
-
-Evolutionary Necessity: In a universe governed by thermodynamic constraints, the framework represents inevitable human adaptation to physical reality. The only question is whether adoption occurs through conscious choice or collapse-driven necessity.
-
-The KOSMOS Systems Auditor doesn't need to accommodate existing moral systems or institutional preferences. Physical reality is the ultimate arbiter, and the KOSMOS Systems Auuditor provides humanity's best tools for aligning with rather than violating the laws that govern all durable systems.
+The KOSMOS Systems Auditor doesn't need to accommodate existing moral systems or institutional preferences. Physical reality is the ultimate arbiter, and the KOSMOS Systems Auditor provides humanity's best tools for aligning with rather than violating the laws that govern all durable systems.
 
 The KOSMOS Systems Auditor is an integrated approach, through the Master Reference File, that combines four revolutionary frameworks that work together through a mathematically validated sequence:
 
@@ -23,6 +17,12 @@ The KOSMOS Systems Auditor is an integrated approach, through the Master Referen
 4. The Observer’s Collapse Function (OCF): Predicts system persistence by analyzing neurobiologically-grounded belief dependence, informed by the classification from DQD analysis
 
 This sequence matters enormously because starting with structure prevents analytical bias. One can’t accurately score “Distributed Agency” without first mapping where decisions actually get made. And one can’t predict collapse probability without first understanding whether problems stem from artificial design choices versus natural adaptation challenges.
+
+The KOSMOS Systems Auditor provides unprecedented tools for diagnosing civilizational thermodynamic failure and enables the first objective basis for system design aligned with 3.8 billion years of evolutionary optimization.
+
+Civilization-Scale Innovation: The KOSMOS Systems Auditor provides humanity's first objective tools for designing institutions compatible with the physical constraints that govern sustainable systems. This represents the foundational knowledge required for transitioning from an extractive to regenerative civilization.
+
+Evolutionary Necessity: In a universe governed by thermodynamic constraints, the KOSMOS framework represents the inevitable human adaptation to physical reality. The only question is whether adoption occurs through conscious choice or collapse-driven necessity. The financial costs after collapse will be expotential. 
 
 Think of these like four different lenses to a microscope used in the proper sequence. Just as a biologist examines tissue structure before analyzing biochemistry, then determines evolutionary origins, then predicts survival probability—each framework builds on insights from the previous analysis.
 
