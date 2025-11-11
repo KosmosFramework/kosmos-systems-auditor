@@ -76,8 +76,8 @@ Empirical Validation
 Case Study: Bitcoin  
 | Dimension | Score | Rationale                          |  
 |---------------|-----------|----------------------------------------|  
-| DT            | 0.95      | Satoshi�s whitepaper; traceable code.  |  
-| GA            | 0.30      | High energy extraction (�0.5% global electricity). |  
+| DT            | 0.95      | Satoshi’s whitepaper; traceable code.  |  
+| GA            | 0.30      | High energy extraction (˜0.5% global electricity). |  
 | ED            | 0.85      | Miner/validator enforcement required.  |  
 \[
 \text{DQD} = \frac{0.95 + 0.30 + 0.85}{3} = 0.70 \quad \text{(Unnatural)}
@@ -108,10 +108,11 @@ System Repair Protocols
 DQD Reduction Strategies  
 | Parameter | Intervention                  | Effect                  |  
 |---------------|-----------------------------------|----------------------------|  
-| ? DT          | Open-source design               | DT ? 30% (e.g., Linux vs. Windows). |  
-| ? GA          | Biomimetic redesign              | GA ? 40% (e.g., circular economy). |  
-| ? ED          | Self-enforcing mechanisms        | ED ? 50% (e.g., DAO governance). |  
+| ↓ DT          | Open-source design               | DT ? 30% (e.g., Linux vs. Windows). |  
+| ↑ GA          | Biomimetic redesign              | GA ? 40% (e.g., circular economy). |  
+| ↓ ED          | Self-enforcing mechanisms        | ED ? 50% (e.g., DAO governance). |  
 
 Natural System Templates  
 - Ant Colonies: DT = 0.0, GA = 0.98, ED = 0.02 ? DQD = 0.33.  
+
 - Mycelial Networks: DT = 0.0, GA = 1.0, ED = 0.0 ? DQD = 0.33. 
