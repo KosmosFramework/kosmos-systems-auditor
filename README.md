@@ -6,7 +6,7 @@ The KOSMOS Systems Auditor represents a fundamental paradigm shift from subjecti
 
 The KOSMOS Systems Auditor provides unprecedented tools for diagnosing civilizational thermodynamic failure and offers the first objective basis for system design aligned with 3.8 billion years of evolutionary optimization.
 
-Civilization-Scale Innovation: The KOSMOS Systems Auditor provides humanity's first objective tools for designing institutions compatible with the physical constraints that govern sustainable systems. This represents the foundational knowledge required for transitioning from extractive to regenerative civilization.
+Civilization-Scale Innovation: The KOSMOS Systems Auditor provides humanity's first objective tools for designing institutions compatible with the physical constraints that govern sustainable systems. This represents the foundational knowledge required for transitioning from an extractive to regenerative civilization.
 
 Evolutionary Necessity: In a universe governed by thermodynamic constraints, the framework represents inevitable human adaptation to physical reality. The only question is whether adoption occurs through conscious choice or collapse-driven necessity.
 
