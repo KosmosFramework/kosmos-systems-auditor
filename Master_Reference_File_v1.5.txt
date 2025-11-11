@@ -113,8 +113,8 @@ See [MANDATORY FRAMEWORKS] for 7ES/FDP/DQD/OCF definitions.
 
 | Scenario            | Verifiable % | Withheld % | ET Formula           | Expected Score | Debugging Command |  
 |---------------------|--------------|------------|----------------------|----------------|--------------------|  
-| Fully Opaque (Uber) | 0%           | 100%       | `(10�0) - (2�100)`   | 0.0            | "Recalculate with Verifiable=0%" |  
-| Partially Open (GDPR App) | 40% | 60%    | `(10�0.4) - (2�60)`  | 4.0 - 1.2 = 2.8 | "Show penalty math: 2�60%" |  
+| Fully Opaque (Uber) | 0%           | 100%       | `(10x0) - (2x100)`   | 0.0            | "Recalculate with Verifiable=0%" |  
+| Partially Open (GDPR App) | 40% | 60%    | `(10x0.4) - (2x60)`  | 4.0 - 1.2 = 2.8 | "Show penalty math: 2x60%" |  
 
 APPENDIX A: References
 
@@ -582,3 +582,4 @@ These studies collectively demonstrate that:
 3. T_R \ reflects thermodynamic/autonomic resilience  
 
 4. OCF's predicted collapse dynamics match behavioral data  
+
