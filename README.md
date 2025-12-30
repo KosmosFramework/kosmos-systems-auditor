@@ -8,7 +8,7 @@ The KOSMOS Systems Auditor doesn't need to accommodate existing moral systems or
 
 The KOSMOS Systems Auditor is an integrated approach, through the Master Reference File, that combines four revolutionary frameworks that work together through a mathematically validated sequence:
 
-1. The 7ES Framework: Provides the structural foundation—recursive, fractal analysis that reveals how systems work across 60+ orders of magnitude
+1. The 7ES Framework: Provides the structural foundation—recursive, fractal analysis that reveals how systems work across 61+ orders of magnitude
 
 2. The Fundamental Design Principles (FDPs): Evaluates whether systems align with nature’s 3.8 billion years of evolutionary intelligence using the structural foundation from 7ES analysis
 
