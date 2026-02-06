@@ -26,6 +26,6 @@ Evolutionary Necessity: In a universe governed by thermodynamic constraints, the
 
 Think of these like four different lenses to a microscope used in the proper sequence. Just as a biologist examines tissue structure before analyzing biochemistry, then determines evolutionary origins, then predicts survival probability—each framework builds on insights from the previous analysis.
 
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/T6T61QYZFM)
-
 Together, these four frameworks create what amounts to a unified field theory for understanding, predicting, and transforming complex systems.
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/T6T61QYZFM)
