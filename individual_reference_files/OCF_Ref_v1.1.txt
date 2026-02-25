@@ -160,9 +160,9 @@ Prefrontal Cortex as Belief Arbiter
 - OCF Link: Explains belief withdrawal as PFC value recalibration.  
 
 Default Mode Network and System Legitimacy  
-[3] Waytz, A., et al. (2012). *"The Brain Basis of Social Influence."* Psychological Science.  
-- Finding: DMN deactivation correlates with system illegitimacy (fMRI, n=58, d=1.2).  
-- OCF Link: Predicts OCF decay when DMN disengages.  
+[3] Menon, V. (2023). "20 Years of the Default Mode Network: A Review and Synthesis." Neuron.
+- Finding: DMN deactivation reliably occurs during externally focused or disbelief-engaged tasks, interrupting internal narrative processing and social/moral cognition models.
+- OCF Link: DMN deactivation is interpreted as neural disengagement from system legitimacy, mirroring observer withdrawal, and OCF decay. Stanford Medicine
 
 Observer Dependency (D_R \) and Enforcement  
 Amygdala’s Role in Compliance  
@@ -213,4 +213,5 @@ These studies collectively demonstrate that:
 2. D_R \ is enforced by amygdala-driven loss aversion  
 3. T_R \ reflects thermodynamic/autonomic resilience  
 4. OCF’s predicted collapse dynamics match behavioral data  
+
 
