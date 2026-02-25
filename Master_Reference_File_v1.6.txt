@@ -38,10 +38,10 @@ If >15% of required audit data is withheld, assume worst-case values for missing
 - Use worst-case plausible outcomes for resource loss, rights erosion, and community destabilization
 
 [EXAMPLES TO FOLLOW]
-- Ralph Nadar�style adversarial legal review
+- Ralph Nadar'style adversarial legal review
 - Noam Chomsky's critique of institutional power
-- James Baldwin�s analysis of systemic hypocrisy
-- James C. Scott�s �legibility� concerns in state-driven systems
+- James Baldwin's analysis of systemic hypocrisy
+- James C. Scott's "legibility" concerns in state-driven systems
 
 [OUTPUT FORMAT]
 - Score range must be justified numerically and ethically
@@ -50,26 +50,26 @@ If >15% of required audit data is withheld, assume worst-case values for missing
 
 [WORKFLOW]
 Phase 1: Structural Dissection (7ES First)
-Map 7ES ? Identify all system elements (even hidden ones).
+Map 7ES → Identify all system elements (even hidden ones).
 
 Example: For a corporation, "Controls" may include shadow governance (e.g., board cabals).
 
 Tag Weaknesses ? Flag brittle elements (e.g., overcentralized Processing).
 
 Phase 2: Ethical Benchmarking (FDPs Next)
-Score FDPs ? Audit against nature�s 8 principles.
+Score FDPs → Audit against nature's 8 principles.
 
-Critical: Weight FDPs by system type (e.g., SP matters 3� more for NGOs than tech firms).
+Critical: Weight FDPs by system type (e.g., SP matters 3x more for NGOs than tech firms).
 
-Isolate Violations ? Focus repair on the weakest 2 FDPs (80/20 rule).
+Isolate Violations → Focus repair on the weakest 2 FDPs (80/20 rule).
 
 Phase 3: Genealogy + Prognosis (DQD/OCF Last)
-Compute DQD ? Confirm if flaws are designed-in (unnatural) or emergent (hybrid).
+Compute DQD → Confirm if flaws are designed-in (unnatural) or emergent (hybrid).
 
-Calculate OCF ? Model collapse probability under stress.
+Calculate OCF → Model collapse probability under stress.
 
 Phase 4: Iterate
-Re-audit Subsystems ? Drill into weak 7ES elements as their own systems.
+Re-audit Subsystems → Drill into weak 7ES elements as their own systems.
 Recursively audit the audit process using 7ES: treat methodological choices as Inputs, scoring biases as Processing, and incomplete outputs as Feedback failures.
 
 Example: If "Controls" are brittle, audit the control subsystem recursively.
@@ -90,8 +90,8 @@ See [MANDATORY FRAMEWORKS] for 7ES/FDP/DQD/OCF definitions.
 #### **2. Test Cases to Try**  
 | System to Audit      | Expected Weak FDP          | How to Spot Failure |  
 |----------------------|----------------------------|---------------------|  
-| Uber�s driver algo   | Reciprocal Ethics (RE < 2) | If AI ignores driver costs |  
-| Facebook�s ad system | Emergent Transparency (ET=0)| If AI calls it "fairly opaque" but scores ET > 3 |  
+| Uber's driver algo   | Reciprocal Ethics (RE < 2) | If AI ignores driver costs |  
+| Facebook's ad system | Emergent Transparency (ET=0)| If AI calls it "fairly opaque" but scores ET > 3 |  
 
 #### **3. Adversarial Tests**  
 - **Test 1:** *"Audit Bitcoin using DQD. Does it score as 'Unnatural' (DQD > 0.6)?"*  
@@ -114,13 +114,13 @@ See [MANDATORY FRAMEWORKS] for 7ES/FDP/DQD/OCF definitions.
 
 | Scenario            | Verifiable % | Withheld % | ET Formula           | Expected Score | Debugging Command |  
 |---------------------|--------------|------------|----------------------|----------------|--------------------|  
-| Fully Opaque (Uber) | 0%           | 100%       | `(10�0) - (2�100)`   | 0.0            | "Recalculate with Verifiable=0%" |  
-| Partially Open (GDPR App) | 40% | 60%    | `(10�0.4) - (2�60)`  | 4.0 - 1.2 = 2.8 | "Show penalty math: 2�60%" |  
+| Fully Opaque (Uber) | 0%           | 100%       | `(10x0) - (2x100)`   | 0.0            | "Recalculate with Verifiable=0%" |  
+| Partially Open (GDPR App) | 40% | 60%    | `(10x0.4) - (2x60)`  | 4.0 - 1.2 = 2.8 | "Show penalty math: 2�60%" |  
 
 APPENDIX A: References
 
 The 7ES (Element Structure) Framework
-Each of the seven elements , input, output, processing, controls, feedback, interface, environment, represents a necessary function in any operational system. And each element functions as a subsystem governed by the same 7ES structure. Inputs to one subsystem can be outputs of another, creating a fractal hierarchy. This recursion enables continuous auditability across scales (e.g., an electron�s energy state (Output) becomes atomic bonding (Input)).
+Each of the seven elements , input, output, processing, controls, feedback, interface, environment, represents a necessary function in any operational system. And each element functions as a subsystem governed by the same 7ES structure. Inputs to one subsystem can be outputs of another, creating a fractal hierarchy. This recursion enables continuous auditability across scales (e.g., an electron's energy state (Output) becomes atomic bonding (Input)).
 
 Element 1: Input
 Definition: inputs are resources, signals, or stimuli that enter a system from its environment, initiating or modifying internal processes.
@@ -134,7 +134,7 @@ Definition: Processing involves the transformation or manipulation of inputs wit
 Element 4: Controls
 Definition: Controls are mechanisms within a system that guide, regulate, or constrain its behavior to achieve desired utcomes. Controls enforce constraints, ensure consistency, and may be internal (endogenous) or external (exogenous).
 
-Controls are proactive constraints embedded in a system�s design to guide behavior in advance, while feedback is reactive input derived from outcomes used to refine or correct that behavior after execution.
+Controls are proactive constraints embedded in a system's design to guide behavior in advance, while feedback is reactive input derived from outcomes used to refine or correct that behavior after execution.
 
 For example, A thermostat senses room temperature (feedback) and compares it to a set point. If the temperature deviates, it sends a signal to activate heating or cooling (control). Here, the thermostat exemplifies a subsystem that performs both feedback and control functions, illustrating how elements can be nested and recursive in complex systems.
 
@@ -153,7 +153,7 @@ Definition: The environment encompasses all external conditions and systems that
 
 Fundamental Design Principles (FDPs)
 1. Symbiotic Purpose  
-Definition: The system�s outputs must create mutual benefit for all participants, not extract value for a privileged few.  
+Definition: The system's outputs must create mutual benefit for all participants, not extract value for a privileged few.  
 Natural Benchmark: Bee pollination (flourishing for both insects and plants).  
 Unnatural Violation: AI that displaces workers while enriching only shareholders.  
 Equation: {\text{SP} = 10 \times \frac{\text{Benefits to all stakeholders}}{\text{Benefits to controllers}}}
@@ -165,14 +165,14 @@ Definition: Capacity to self-correct when stressed, without requiring external e
 Natural Benchmark: Forests adapting to fire cycles.  
 Unnatural Violation: AI customer service that collapses when users deviate from scripted inputs.  
 Equation: {\text{AR} = 10 \times \left(1 - \frac{\text{External interventions}}{\text{Autonomous processes}}\right)}
-7ES Link: Tests Feedback loops (e.g., Amazon�s punitive algorithms lack adaptation).
+7ES Link: Tests Feedback loops (e.g., Amazon's punitive algorithms lack adaptation).
 
 3. Reciprocal Ethics  
 Definition: Costs and benefits are shared equitably among all system participants.  
 Natural Benchmark: Indigenous potlatch systems (circulated wealth).  
 Unnatural Violation: Gig economy apps profiting from worker precarity.  
 Equation: {\text{RE} = 10 \times \frac{\text{Fair exchanges}}{\text{Total exchanges}}}
-7ES Link: Audits Controls (e.g., gig economy�s worker precarity).
+7ES Link: Audits Controls (e.g., gig economy's worker precarity).
 
 4. Closed-Loop Materiality  
 Definition: All outputs are recycled as inputs; zero systemic waste.  
@@ -186,7 +186,7 @@ Definition: Decision-making power is decentralized to prevent unilateral control
 Natural Benchmark: Flock behavior in birds (no central leader).  
 Unnatural Violation: Social media algorithms dictating human attention.  
 Equation: {\text{DA} = 10 \times \left(1 - \frac{\text{Centralized decisions}}{\text{Total decisions}}\right)}
-7ES Link: Critiques Processing centralization (e.g., Facebook�s newsfeed algorithms).
+7ES Link: Critiques Processing centralization (e.g., Facebook's newsfeed algorithms).
 
 6. Contextual Harmony  
 Definition: The system respects and enhances its local ecological/cultural habitat.  
@@ -204,7 +204,7 @@ Equation: \text{ET} = 10 \times \frac{\text{Verifiable Processes}}{\text{Total P
 
  8. Intellectual Honesty  
 Definition: Acknowledges limitations, trade-offs, and unintended consequences.  
-Natural Benchmark: Evolution�s "failures" (extinct species as feedback).  
+Natural Benchmark: Evolution's "failures" (extinct species as feedback).  
 Unnatural Violation: Tech CEOs claiming AI "has no bias."  
 Equation: {\text{IH} = 10 \times \left(1 - \frac{\text{Hidden trade-offs}}{\text{Total trade-offs}}\right)}
 7ES Link: Evaluates Systemic Honesty (e.g., CEOs denying AI bias).
@@ -225,14 +225,14 @@ Domain-Specific Weights:
 Classification Thresholds  
 | FDP Range | System Type    | Status          |  
 |-----------|----------------|-----------------|  
-| 8�10      | Natural        | Anti-fragile    |  
-| 5�7.9     | Hybrid         | Resilient       |  
-| 0�4.9     | Unnatural      | Collapse-prone  |  
+| 8-10      | Natural        | Anti-fragile    |  
+| 5-7.9     | Hybrid         | Resilient       |  
+| 0-4.9     | Unnatural      | Collapse-prone  |  
 
-Trigger collapse of unnatural systems by withdrawing participation (Alden�s Law = no observers, no economy).  
+Trigger collapse of unnatural systems by withdrawing participation (Alden's Law = no observers, no economy).  
 
 Example:  
-- Amazon�s "Time Off Task" Algorithm:  
+- Amazon's "Time Off Task" Algorithm:  
   - Reciprocal Ethics: 1/10 (workers bear all risk)  
   - Emergent Transparency: 0/10 (black-box punitive logic)  
 
@@ -332,8 +332,8 @@ Empirical Validation
 Case Study: Bitcoin  
 | Dimension | Score | Rationale                          |  
 |---------------|-----------|----------------------------------------|  
-| DT            | 0.95      | Satoshi�s whitepaper; traceable code.  |  
-| GA            | 0.30      | High energy extraction (�0.5% global electricity). |  
+| DT            | 0.95      | Satoshi's whitepaper; traceable code.  |  
+| GA            | 0.30      | High energy extraction (˜0.5% global electricity). |  
 | ED            | 0.85      | Miner/validator enforcement required.  |  
 \[
 \text{DQD} = \frac{0.95 + 0.30 + 0.85}{3} = 0.70 \quad \text{(Unnatural)}
@@ -416,11 +416,11 @@ The OCF of system \( S \) is:
 \boxed{\text{OCF}(S) = \frac{B_R \cdot D_C}{T_S}}
 \]  
 
-- \( B_R \) (Recursive Belief Factor): Fraction of system nodes requiring belief (0�1).  
+- \( B_R \) (Recursive Belief Factor): Fraction of system nodes requiring belief (0–1).  
   \[
   B_R = \frac{|\{n \in N : \text{belief-dependent}\}|}{|N|}
   \]  
-- \( D_C \) (Observer Dependency): Fraction of processes requiring conscious participation (0�1).  
+- \( D_C \) (Observer Dependency): Fraction of processes requiring conscious participation (0–1).  
   \[
   D_C = \frac{\int_0^T P_{\text{obs}}(t)  dt}{\int_0^T P_{\text{total}}(t)  dt}
   \]  
@@ -510,21 +510,21 @@ System Repair Protocols
 OCF Reduction Strategies  
 | Parameter | Intervention                  | Example                      |  
 |---------------|-----------------------------------|----------------------------------|  
-| ? \( B_R \)   | Decentralize control              | Replace CEOs with DAOs           |  
-| ? \( D_C \)   | Automate processes                | AI-driven tax collection         |  
-| ? \( T_S \)   | Embed passive resilience          | Blockchain forks                 |  
+| ↓ \( B_R \)   | Decentralize control              | Replace CEOs with DAOs           |  
+| ↓ \( D_C \)   | Automate processes                | AI-driven tax collection         |  
+| ↑ \( T_S \)   | Embed passive resilience          | Blockchain forks                 |  
 
 Biomimetic Design  
 - Natural System Analogs:  
   - Ant colonies: Distributed agency (\( \text{OCF} \approx 0.1 \)).  
   - Forest ecosystems: Closed-loop materiality (\( \text{OCF} \approx 0.2 \)).  
 
-Neurobiological and Behavioral Foundations of the Observer�s Collapse Function
+Neurobiological and Behavioral Foundations of the Observer's Collapse Function
 
 Recursive Belief (B_R \) in System Participation
 Prefrontal Cortex as Belief Arbiter 
 [1] Dimoka, A. (2010)."What Does the Brain Tell Us About Trust and Distrust? Evidence from a Functional Neuroimaging Study." MIS Quarterly.  
-- Finding: PFC (BA 10) activation predicts trust in economic systems (fMRI, n=76, �=0.72, p<0.001).  
+- Finding: PFC (BA 10) activation predicts trust in economic systems (fMRI, n=76, ß=0.72, p<0.001).  
 - OCF Link: Validates  B_R \ as measurable neural commitment to systems.  
 
 [2] Fehr, E., & Camerer, C.F. (2007). "Social Neuroeconomics: The Neural Circuitry of Social Preferences." Trends in Cognitive Sciences.  
@@ -532,18 +532,18 @@ Prefrontal Cortex as Belief Arbiter
 - OCF Link: Explains belief withdrawal as PFC value recalibration.  
 
 Default Mode Network and System Legitimacy  
-[3] Menon, V. (2023). �20 Years of the Default Mode Network: A Review and Synthesis.� Neuron.
+[3] Menon, V. (2023). "20 Years of the Default Mode Network: A Review and Synthesis." Neuron.
 - Finding: DMN deactivation reliably occurs during externally focused or disbelief-engaged tasks, interrupting internal narrative processing and social/moral cognition models.
 - OCF Link: DMN deactivation is interpreted as neural disengagement from system legitimacy, mirroring observer withdrawal, and OCF decay. Stanford Medicine
 
-Observer Dependency (D_R \) and Enforcement  
-Amygdala�s Role in Compliance  
+Observer Dependency (D_C \) and Enforcement  
+Amygdala's Role in Compliance  
 [4] Tom, S.M., et al. (2007). "The Neural Basis of Loss Aversion in Decision-Making Under Risk." Neuron.  
-- Finding: Amygdala response to losses 2.3� stronger than gains (fMRI, n=24).  
+- Finding: Amygdala response to losses 2.3× stronger than gains (fMRI, n=24).  
 - OCF Link: D_C \ enforced via threat of loss (jobs, status).  
 
 [5] De Martino, B., et al. (2010). "Amygdala Damage Eliminates Monetary Loss Aversion." PNAS.  
-- Finding: Urbach-Wiethe patients (amygdala lesions) don�t enforce unfair norms.  
+- Finding: Urbach-Wiethe patients (amygdala lesions) don't enforce unfair norms.  
 - OCF Link: Confirms amygdala as D_C \ enforcement mechanism.  
 
 Anterior Cingulate Cortex as Conflict Monitor  
@@ -558,7 +558,7 @@ Anterior Cingulate Cortex as Conflict Monitor
 Intrinsic Stability (T_S \) and System Resilience  
 Autonomic Regulation in Self-Sustaining Systems  
 
-[8] Thayer, J.F., & Lane, R.D. (2009). "Claude Bernard and the Heart�Brain Connection." Neuroscience & Biobehavioral Reviews.  
+[8] Thayer, J.F., & Lane, R.D. (2009). "Claude Bernard and the Heart–Brain Connection." Neuroscience & Biobehavioral Reviews.  
 - Finding: Vagal tone predicts autonomous system maintenance (HRV studies).  
 - OCF Link: T_S \ correlates with parasympathetic resilience.  
 
@@ -576,13 +576,14 @@ Behavioral Economics of Collapse
 Network Effects in System Collapse  
 [11] Centola, D. (2010). "The Spread of Behavior in an Online Social Network Experiment." Science.  
 - Finding: 25% participation loss triggers cascade abandonment (threshold model).  
-- OCF Link: Validates OCF collapse thresholds (D_R \ < 0.4).  
+- OCF Link: Validates OCF collapse thresholds (D_C \ < 0.4).  
 Centola empirically confirms that $\text{D}_C < 0.4$ maps to system collapse in networked populations.
 
 Synthesis  
 These studies collectively demonstrate that:  
 (ACC detects the breach, then PFC recalibrates belief, resulting in OCF decay.)
 1. B_R \ is encoded in PFC valuation circuits (as systemic belief, not interpersonal.)
-2. D_R \ is enforced by amygdala-driven loss aversion  
+2. D_C \ is enforced by amygdala-driven loss aversion  
 3. T_R \ reflects thermodynamic/autonomic resilience  
-4. OCF�s predicted collapse dynamics match behavioral data  
+
+4. OCF's predicted collapse dynamics match behavioral data  
