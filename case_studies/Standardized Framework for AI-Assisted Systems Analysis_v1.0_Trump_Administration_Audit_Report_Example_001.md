@@ -288,3 +288,29 @@ The weakest FDPs—**Distributed Agency (0.7)** and **Emergent Transparency (1.1
 - Session Parameters: Isolation confirmed; memory disabled
 
 **Exact Prompt Used**:
+
+The purpose of this chat session is to produce an academic-level research paper conducting a comprehensive forensic audit of the Trump Administration Foreign Policy System (2017-2021) using the attached Master Reference File v1.7.
+
+**Target Audience:** Academics, policy makers and their staff, political scientists, government accountability organizations, investigative journalists, international relations scholars.
+
+**Temporal Scope**: January 20, 2017 to January 20, 2021
+
+**Analytical Requirements**:
+
+Apply the complete KOSMOS Framework methodology (7ES, FDPs, DQD, OCF) as defined in MRF v1.7
+
+For each 7ES element, identify multiple distinct subsystems (parallel, sequential, or hybrid)
+
+Calculate all eight FDP scores with explicit justification referencing the formulas
+
+Classify system origins using DQD dimensions
+
+Calculate OCF with complexity adjustment (Ψ factor)
+
+Document any framework blind spots or suggested refinements
+
+Follow the standardized KOSMOS Audit Report Header structure provided by the researcher
+
+The AI should identify itself, confirm clean room conditions, and provide full transparency about its training cutoff and any limitations.
+
+Produce a formal report with executive summary, detailed analysis by element, FDP scoring table, DQD classification, OCF modeling, conclusions, and complete replication appendix.
