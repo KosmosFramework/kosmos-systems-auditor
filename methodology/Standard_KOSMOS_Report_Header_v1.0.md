@@ -1,4 +1,4 @@
-# [AI-Generated Title: Concise, Descriptive, Framework-Aligned](Draft - 003-03-26)
+# [AI-Generated Title: Concise, Descriptive, Framework-Aligned](Draft - 03-03-26)
 
 ## KOSMOS Systems Auditor Report
 **Master Reference File v1.7 Analysis**
