@@ -179,7 +179,7 @@ Calculate three dimensions of system origin:
 **DQD Composite:** (DT + GA + ED) / 3
 
 **Classify:**
-
+- (0, 0.3]: Natural
 - (0.3, 0.6]: Hybrid
 - (0.6, 1]: Unnatural
 
