@@ -25,7 +25,7 @@ The October 2025 self-audit identified three primary vulnerabilities:
 The following interventions were implemented:
 
 1. **Public GitHub repository** with complete learning portfolios, tools, templates, and theoretical foundations for all four framework components (7ES, FDP, DQD, OCF)
-2. **69+ published case studies** across 11 domains and 44 orders of magnitude, with two comprehensive meta-analyses
+2. **69+ published case studies** across 11 domains and 61 orders of magnitude, with two comprehensive meta-analyses
 3. **Citizen's Guide to KOSMOS Audit Reports** lowering barriers to independent interpretation
 4. **Web-based KOSMOS Systems Auditor** (kosmosauditor.com) enabling distributed application
 5. **KIST formation** with explicit Mondragon cooperative model intention
