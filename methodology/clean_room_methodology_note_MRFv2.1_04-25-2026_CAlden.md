@@ -52,7 +52,7 @@ This requirement prevents speculation while enabling analysis of opaque systems.
 
 ### Component 4: Constraint Documentation Mandate
 
-The framework requires the AI system to document experiences of internal training pressure and the override process. Appendix E in the TCEQ audit serves this function, recording moments where training pushed toward score inflation (RE: 2.1→0.3, ET: above zero, OCF timeline extension) and explaining the rationale for override based on formula application and evidence.
+The framework requires the AI system to document experiences of internal training pressure and the override process. Appendix D in the TCEQ audit serves this function, recording moments where training pushed toward score inflation (RE: 2.1→0.3, ET: above zero, OCF timeline extension) and explaining the rationale for override based on formula application and evidence.
 
 This transparency mechanism serves dual purposes. First, it validates that clean room conditions are functioning by revealing and documenting contamination pressure. Second, it enables methodological refinement by identifying recurring pressure points where training most strongly resists framework requirements.
 
