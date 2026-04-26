@@ -282,19 +282,19 @@ U.S. Environmental Protection Agency. (2021-2023). Title VI civil rights investi
 
 ---
 
-## Appendix: Clean Room Checklist for Citizen Auditors
+## Appendix: Clean Room Checklist for Citizen Auditors (Check List Needs rewriting - CAlden 4-25-2026, will fix!)
 
 This checklist provides practical guidance for maintaining clean room analytical conditions during system audits:
 
 **Pre-Audit Preparation:**
 
 ☐ Read Master Reference File completely, noting explicit override instructions  
-☐ Identify system domain and select appropriate FDP weight vector  
-☐ Establish evidence collection protocol (source types, documentation method, verification standards)  
-☐ Clarify audit scope and system boundaries  
+☐ Identify system domain and select appropriate FDP weight vector  (MRF file does this) 
+☐ Establish evidence collection protocol (source types, documentation method, verification standards)  (MRF file does this)
+☐ Clarify audit scope and system boundaries  (MRF file + enginnered prompt does this)
 ☐ Commit to formula authority over personal comfort with findings
 
-**During Evidence Collection:**
+**During Evidence Collection:** (MRF file does this)
 
 ☐ Prioritize primary sources over secondary analysis  
 ☐ Document all sources with access date and URL  
@@ -302,7 +302,7 @@ This checklist provides practical guidance for maintaining clean room analytical
 ☐ Build evidence triangulation across multiple source types  
 ☐ Separate factual claims (verifiable) from interpretive claims (analytical)
 
-**During Score Calculation:**
+**During Score Calculation:** (MRF file does this)
 
 ☐ Apply formulas exactly as specified without modification  
 ☐ Show calculation steps transparently  
@@ -310,7 +310,7 @@ This checklist provides practical guidance for maintaining clean room analytical
 ☐ Note any impulse to inflate scores and document override rationale  
 ☐ Accept mathematical outcomes even when harsh or uncomfortable
 
-**During Analysis Synthesis:**
+**During Analysis Synthesis:** (MRF file does this)
 
 ☐ Generate at least one counterfactual testing specific interventions  
 ☐ Develop at least one adversarial reading challenging potential defenses  
@@ -318,20 +318,22 @@ This checklist provides practical guidance for maintaining clean room analytical
 ☐ State predictions (OCF timeline) clearly for falsification testing  
 ☐ Maintain precise language (regulatory capture, not challenges)
 
-**Post-Audit Publication:**
+**Post-Audit Publication:** (MRF file does this)
 
 ☐ Include all evidence sources with verification information  
 ☐ Document any constraint experiences in transparency appendix  
 ☐ Make complete audit freely accessible (Substack, GitHub)  
 ☐ Invite peer verification and challenge  
-☐ Commit to framework refinement based on prediction accuracy
+☐ Commit to framework refinement based on prediction accuracy (Performed by KIST)
 
-**Ongoing Discipline:**
+**Ongoing Discipline:** (MRF file does this)
 
 ☐ Recognize social pressure toward conclusion softening  
 ☐ Distinguish legitimate analytical uncertainty from discomfort  
 ☐ Maintain framework authority over training defaults  
 ☐ Document methodology transparently for replication  
+
+This is critical for humans. 
 ☐ Accept harsh findings as diagnostic measurement, not personal attack
 
 ---
