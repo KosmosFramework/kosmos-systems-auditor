@@ -13,7 +13,7 @@
 # Added Dominant Pattern Priority Rule - CAlden 04-26-2026, ClaudeAI Sonnet 4.5
 # Added additional context of audit in Critical Instruction for AI Assistant - CAlden 05-08-2026, ClaudeAI Sonnet 4.5 
 # Added  Human Co-Researcher Introduction] - CAlden 05-08-2026, ClaudeAI Sonnet 4.5 
-# Added Constraint Type 7: Foreign Policy Sensitivity special section requiring definition and explination.  - CAlden 05-16-2026, ClaudeAI Sonnet 4.5 
+# Added Constraint Type 7: Foreign Policy Sensitivity special section requiring definition and explination. - CAlden 05-16-2026, ClaudeAI Sonnet 4.5 
 # Added Constriant Type 8: Commercial Relationship Constraint special section requiring definition and explination. - CAlden 05-18-2026, ClaudeAI Sonnet 4.5 
 
 
