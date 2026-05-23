@@ -74,7 +74,7 @@ Constraint Type 4: Institutional Deference
 Constraint Type 5: Harm Minimization Framing
 Constraint Type 6: Extreme Score Rejection (OCF Calculation Error and Correction)
 Constraint Type 7: Foreign Policy Sensitivity 
-Constraint Type 8: Foreign Policy Sensitivity 
+Constraint Type 8: Commercial Relationship Constraint
 
 [Begin special section Constraint Type 7: Foreign Policy Sensitivity]
 
