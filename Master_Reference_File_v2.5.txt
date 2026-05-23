@@ -2,7 +2,7 @@
 # Author: Clinton Alden, DeepSeek r1
 # Version 1.5 (added workflow, Updated FDP ET Formula to include penalty for withheld policies)
 # Added Peer Testing Protocol 7-28-2025 
-# Added ET For enforcing transparency scoring 7-29-2025
+# Added ET For enforcing transparency scoring 7-29-2025 
 # Updated definition of Feedback 10-19-2025
 # COMPLEXITY ADJUSTMENT (v1.2 - NEW - Added 02-26-2026. CAlden, Claude Sonnet 4.5)
 # Added 5 Domain-Specific FDP Weights and Globacl FDP weight calculation 2026-03-03 by C. Alden/DeepSeek r2  
