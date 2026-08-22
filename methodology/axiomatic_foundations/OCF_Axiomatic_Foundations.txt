@@ -1,0 +1,316 @@
+## 1. The Four Axioms (Restated)
+
+| Axiom | Statement | Implication |
+|-------|-----------|-------------|
+| **Axiom 1 (Computational Existence)** | The universe instantiates a non-trivial computational process `U = (I, O, P, C, F, N, E)` with `P ≠ Identity` | Systems must process inputs into outputs, not just pass them through |
+| **Axiom 2 (Persistent State)** | Computation requires persistent, addressable state with `τ > 0` | Systems must have memory—substrates that maintain information over time |
+| **Axiom 3 (Optimization)** | Systems evolve to maximize long-term computational potential `Φ` | Systems must optimize for sustained information processing, not short-term efficiency |
+| **Axiom 4 (Substrate-Process Duality)** | Any process can become substrate for higher-order processes | Systems must be recursive—able to build new systems on top of existing ones |
+
+---
+
+## 2. Deriving the Core Observer's Collapse Function (OCF) Components
+
+The OCF measures 3 dimensions: **Recursive Belief (B_R)**, **Observer Dependency (D_C)**, and **Intrinsic Stability (T_S)**.
+
+### 2.1 Deriving B_R (Recursive Belief)
+
+**Axiom 1** requires that processing be non-trivial (`P ≠ Identity`).
+
+- If a system's processing is **external to the observer** (it runs on physics), then `B_R = 0`—no belief is required.
+- If a system's processing is **internal to the observer's symbolic representation** (it runs on belief), then `B_R > 0`—belief is required.
+
+**Derivation:**
+
+```
+Let S be a system.
+Let P_S be its processing function.
+
+If P_S is a function of the observer's symbolic state (belief):
+    → The system requires belief to compute
+    → B_R = the fraction of observers whose symbolic state is part of P_S
+
+If P_S is independent of the observer's symbolic state:
+    → The system computes without belief
+    → B_R = 0
+```
+
+**Formal definition:**
+
+```
+B_R = |{n ∈ N : belief is part of the processing of n}| / |N|
+```
+
+**Axiom connection:** If `B_R = 1` (all observers' belief is part of processing), the system violates Axiom 1 because its processing is not its own—it's a function of external symbolic states. Natural systems have `B_R → 0`.
+
+### 2.2 Deriving D_C (Observer Dependency)
+
+**Axiom 2** requires persistent state with `τ > 0`.
+
+- If a system's state persists without observers, `τ > 0` independently of observers → `D_C = 0`.
+- If a system's state only persists because observers maintain it, `τ = f(D_C)` → `D_C > 0`.
+
+**Derivation:**
+
+```
+Let τ be the relaxation time of the system's state.
+If τ is independent of observer participation:
+    → D_C = 0
+
+If τ decreases with observer withdrawal:
+    → D_C = the fraction of processes that require observer participation to maintain state
+```
+
+**Formal definition:**
+
+```
+D_C = (∫ P_obs(t) dt) / (∫ P_total(t) dt)
+```
+
+Where:
+- `P_obs(t)` = processes requiring observer participation at time `t`
+- `P_total(t)` = all processes at time `t`
+
+**Axiom connection:** If `D_C = 1` (all processes require observers), the system has no persistent state independent of observers—violating Axiom 2. Natural systems have `D_C → 0`.
+
+### 2.3 Deriving T_S (Intrinsic Stability)
+
+**Axiom 2** requires persistent state with `τ > 0`. The persistence rate without belief is the key measure of intrinsic stability.
+
+**Derivation:**
+
+```
+Let τ_with_belief = relaxation time with observer belief
+Let τ_without_belief = relaxation time without observer belief
+
+T_S = τ_with_belief / τ_without_belief
+```
+
+If `T_S = 1`, the system persists equally with or without belief → fully intrinsic.
+
+If `T_S > 1`, the system persists *longer* with belief than without → belief is required.
+
+**Axiom connection:** If `T_S = 1`, the system satisfies Axiom 2 intrinsically. If `T_S > 1`, the system violates Axiom 2 because its persistence depends on external belief.
+
+---
+
+## 3. Deriving the OCF Equation
+
+### 3.1 The Core Equation
+
+```
+OCF = (B_R × D_C) / T_S
+```
+
+**Interpretation:**
+- `B_R` = fraction of processing that requires observer symbolic state (Axiom 1 violation)
+- `D_C` = fraction of processes requiring observer participation (Axiom 2 violation)
+- `T_S` = persistence rate without belief (Axiom 2 satisfaction)
+
+**If `OCF = 0`:** System satisfies all axioms — fully natural.
+**If `OCF = 1`:** System violates all axioms — fully unnatural.
+
+### 3.2 The Axiomatic Justification
+
+| Axiom | OCF Component | Violation if |
+|-------|---------------|--------------|
+| **Axiom 1** | `B_R` | `B_R > 0` → processing requires observer belief |
+| **Axiom 2** | `D_C` | `D_C > 0` → state requires observer participation |
+| **Axiom 2** | `T_S` | `T_S > 1` → state persists longer with belief than without |
+
+**Theorem: Necessity of Low OCF for Viability**
+
+**Statement:** A system is viable (satisfies Axioms 1–4) if and only if `OCF < 0.3`.
+
+**Proof:**
+
+1. If `OCF > 0.3`, then at least one of `B_R`, `D_C`, or `1/T_S` is non-negligible.
+2. If `B_R > 0.1`, then processing requires observer symbolic state → violates Axiom 1.
+3. If `D_C > 0.3`, then state requires observer participation → violates Axiom 2.
+4. If `T_S > 1.3`, then state persists longer with belief → violates Axiom 2.
+5. Therefore, `OCF > 0.3` implies at least one axiom is violated → system is unnatural.
+
+**Conclusion:** Viable systems must have `OCF < 0.3`. ∎
+
+---
+
+## 4. Deriving the Complexity Adjustment (v1.2)
+
+### 4.1 The Complexity Factors
+
+The complexity adjustment uses three factors derived from the Evolutionary Potential (`Φ`) formula:
+
+| Factor | Source | Derivation |
+|--------|--------|------------|
+| **S(C)** | Control Stability | From Axiom 4: recursion requires stable substrates. If controls are centralized, recursion is blocked. |
+| **R(F)** | Feedback Responsiveness | From Axiom 3: optimization requires feedback. If feedback is absent, `Φ` decreases. |
+| **C(N)** | Interface Connectivity | From Axiom 4: recursion requires interfaces between levels. If connectivity is brittle, recursion fails. |
+
+**Derivation of S(C):**
+
+```
+S(C) = (Critical enforcement nodes) / (Total enforcement nodes)
+```
+
+If `S(C) = 1`, one node controls all enforcement. This violates Axiom 4 because no other process can become substrate.
+
+**Derivation of R(F):**
+
+```
+R(F) = 1 - (Error correction mechanisms / Total processes)
+```
+
+If `R(F) = 1`, no error correction exists. This violates Axiom 3 because the system cannot optimize `Φ`.
+
+**Derivation of C(N):**
+
+```
+C(N) = (Required simultaneous coordination points) / (Total system nodes)
+```
+
+If `C(N) = 1`, all nodes must coordinate without redundancy. This violates Axiom 4 because no recursion is possible without slack.
+
+### 4.2 The Complexity Adjustment Formula
+
+```
+OCF_adj = OCF_base × (1 + [Ψ(S) × (1 - DA/10)])
+```
+
+Where:
+- `Ψ(S) = S(C) + R(F) + C(N)` — the complexity acceleration factor
+- `DA` = Distributed Agency — measures how decentralized the system is
+
+**Derivation:**
+
+From Axiom 3, optimization requires exploration of configuration space. When `DA` is low (centralized), complexity accelerates collapse because the system cannot explore alternative configurations.
+
+From Axiom 4, recursion requires substrates. When `DA` is low, there are no alternative substrates—collapse cascades.
+
+**The acceleration factor:**
+
+```
+Acceleration = (1 + [Ψ(S) × (1 - DA/10)])
+```
+
+If `DA = 10` (fully distributed), acceleration = 1 (no acceleration).
+If `DA = 0` (fully centralized), acceleration = `1 + Ψ(S)`.
+
+---
+
+## 5. Deriving the Existential Coercion (EC) Formula (v1.3)
+
+### 5.1 The EC Components
+
+The EC formula is:
+
+```
+EC = (T_m × I_v × A_d) / (F_p × D_r)
+```
+
+| Component | Derivation from Axioms |
+|-----------|------------------------|
+| **T_m** (Threat Magnitude) | From Axiom 3: systems optimize `Φ`. Threats reduce `Φ` for the observer. The magnitude of the threat is the amount of `Φ` reduction threatened. |
+| **I_v** (Imagination Vividness) | From Axiom 2: persistent state requires memory. Imagination is the simulation of future states. Vividness is the fidelity of that simulation. |
+| **A_d** (Anticipatory Dependency) | From Axiom 3: optimization requires prediction. `A_d` is the degree to which the system's compliance depends on predicted future states. |
+| **F_p** (Present Force) | From Axiom 1: processing requires energy. Present force is the energy applied to compel compliance. When `F_p` is low, the system uses future-threat instead. |
+| **D_r** (Delivery Ratio) | From Axiom 2: persistent state requires `τ > 0`. Delivery ratio is the persistence of promised outcomes. When `D_r` is low, promised outcomes never arrive. |
+
+### 5.2 The EC-OCF Relationship
+
+From the derivation above:
+
+```
+EC ∝ (D_C / T_S)
+```
+
+**Proof:**
+
+1. `D_C` = fraction of processes requiring observer participation (Axiom 2 violation)
+2. `T_S` = persistence rate without belief (Axiom 2 satisfaction)
+3. From Axiom 2, systems that require observer participation have `τ → 0` without observers.
+4. Such systems must maintain compliance through existential coercion.
+5. Therefore, `EC` is proportional to the degree of observer dependency relative to intrinsic stability.
+6. This is exactly `(D_C / T_S)`.
+
+**Therefore:**
+
+```
+EC = k × (D_C / T_S)
+```
+
+Where `k` is a constant that depends on the specific system (approximately 1 for most systems).
+
+### 5.3 The Threshold Interpretation
+
+| EC Value | Implication | Axiom Violation |
+|----------|-------------|-----------------|
+| `EC < 1` | Present-force dominates | No Axiom violation—natural coercion |
+| `1 < EC < 10` | Mixed extraction | Partial Axiom 3 violation |
+| `10 < EC < 100` | Future-threat dominates | Axioms 1, 2, and 3 violated |
+| `EC > 100` | Pathological extraction | All axioms violated—system is terminal |
+
+---
+
+## 6. The Complete Derivation Table
+
+| OCF/EC Component | Derived From | Axiom | Violation If |
+|------------------|--------------|-------|--------------|
+| **B_R** | Processing requires observer symbolic state | Axiom 1 | `B_R > 0` |
+| **D_C** | State requires observer participation | Axiom 2 | `D_C > 0` |
+| **T_S** | State persists longer with belief | Axiom 2 | `T_S > 1` |
+| **OCF** | `(B_R × D_C) / T_S` | Axioms 1–2 | `OCF > 0.3` |
+| **S(C)** | Centralization of enforcement | Axiom 4 | `S(C) > 0.8` |
+| **R(F)** | Absence of error correction | Axiom 3 | `R(F) > 0.8` |
+| **C(N)** | Brittle connectivity | Axiom 4 | `C(N) > 0.8` |
+| **Ψ(S)** | `S(C) + R(F) + C(N)` | Axioms 3–4 | `Ψ(S) > 2.0` |
+| **OCF_adj** | `OCF_base × (1 + Ψ(S)×(1-DA/10))` | Axioms 1–4 | `OCF_adj > 0.8` |
+| **T_m** | Threatened `Φ` reduction | Axiom 3 | `T_m > 8` |
+| **I_v** | Fidelity of future simulation | Axiom 2 | `I_v > 0.8` |
+| **A_d** | Dependency on predicted future | Axiom 3 | `A_d > 0.8` |
+| **F_p** | Present force applied | Axiom 1 | `F_p < 0.1` |
+| **D_r** | Delivery of promised outcomes | Axiom 2 | `D_r < 0.1` |
+| **EC** | `(T_m × I_v × A_d) / (F_p × D_r)` | Axioms 1–3 | `EC > 10` |
+
+---
+
+## 7. The Unified Axiomatic Foundation
+
+### 7.1 The Three Core Functions
+
+The KOSMOS Systems Auditor's core functions are derived as follows:
+
+| Function | Formula | Derived From |
+|----------|---------|--------------|
+| **OCF** | `(B_R × D_C) / T_S` | Axioms 1–2 |
+| **OCF_adj** | `OCF × (1 + Ψ(S) × (1 - DA/10))` | Axioms 1–4 |
+| **EC** | `(T_m × I_v × A_d) / (F_p × D_r)` | Axioms 1–3 |
+
+### 7.2 The Classification Thresholds
+
+| System Type | OCF Range | EC Range | Axiom Status |
+|-------------|-----------|----------|--------------|
+| **Pure Natural** | `0.0 – 0.15` | `EC < 1` | All axioms satisfied |
+| **Bio-Natural** | `0.15 – 0.30` | `1 < EC < 10` | All axioms satisfied with agency |
+| **Hybrid** | `0.30 – 0.60` | `10 < EC < 100` | Partial violation |
+| **Unnatural** | `0.60 – 1.0` | `EC > 100` | At least one axiom violated |
+
+---
+
+## 8. Conclusion
+
+The core OCF functions are derivable from the four Axioms of Universal Computation:
+
+| Axiom | Leads To | OCF Component |
+|-------|----------|---------------|
+| **Axiom 1** (Non-trivial processing) | Processing must be independent of observer symbolic state | `B_R` |
+| **Axiom 2** (Persistent state) | State must persist without observer participation | `D_C`, `T_S` |
+| **Axiom 3** (Optimization) | Feedback and threat assessment for `Φ` | `R(F)`, `EC` components |
+| **Axiom 4** (Recursion) | Distributed agency and redundancy | `S(C)`, `C(N)`, `DA` |
+
+**The OCF is not arbitrary.** It is a **necessary diagnostic** for any system operating under the four Axioms.
+
+**The EC is not arbitrary.** It is a **measure of extraction**—the degree to which a system violates Axioms 1–3 by exploiting the observer's imagination (Axiom 2's memory and simulation capacity).
+
+**The complexity adjustment is not arbitrary.** It measures the acceleration of collapse when Axioms 3–4 are violated.
+
+**This is the complete axiomatic foundation of the OCF, EC, and their complexity adjustment.**
