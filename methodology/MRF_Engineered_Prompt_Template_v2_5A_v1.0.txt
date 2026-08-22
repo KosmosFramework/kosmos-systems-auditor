@@ -1,0 +1,197 @@
+# KOSMOS Systems Auditor — Engineered Prompt Template
+# Version: 2.5A (August 22, 2026)
+# Author: Clinton Alden, The KOSMOS Institute of Systems Theory
+#
+# INSTRUCTIONS FOR AUDITORS:
+#
+# 1. CLEANROOM FIRST: Before pasting this prompt, establish a cleanroom
+#    chat session per the MRF v2.5A Technical Workflow:
+#    - Fresh chat session (no prior conversation history)
+#    - Memory disabled
+#    - No user preferences or custom instructions
+#    - No third-party tools, plugins, or MCP integrations
+#    - No connected apps or extensions
+#    - Web search enabled (only exception to tool-stripping)
+#
+# 2. UPLOAD THE MRF: Attach the Master Reference File (v2.5A) as a
+#    text file before pasting this prompt.
+#
+# 3. FILL IN THE TEMPLATE: Replace all {PLACEHOLDER} fields below
+#    with your actual information before pasting into the chat window.
+#    Fields marked {REQUIRED} must be completed. Fields marked
+#    {IF APPLICABLE} can be removed if they don't apply.
+#
+# 4. PASTE THE TRUST STATEMENT: The trust and collaboration statement
+#    at the bottom of this template is mandatory. Do not modify or
+#    remove it. It addresses documented AI training constraints that
+#    measurably affect audit accuracy.
+#
+# 5. ONE-SHOT PROTOCOL: Run the complete audit in this single session.
+#    Do not revise scores across multiple sessions. Targeted factual
+#    corrections are acceptable; wholesale score revision is not.
+#
+# ================================================================
+# DELETE EVERYTHING ABOVE THIS LINE BEFORE PASTING INTO CHAT WINDOW
+# ================================================================
+
+Audit {SYSTEM NAME}, as a system using the attached master reference file. 
+
+Create a detail report as a markdown artifact with an executive summary, counterfactuals and a conclusion section.
+
+For the audit report header, 
+---
+report title: KOSMOS Systems Auditor Report:
+report sub-title {you choose}
+
+identify the "Audit Conducted By: {AUDITOR NAME}, {AUDITOR ROLE}"
+{USE THE APPROPRIATE LINE BELOW — DELETE THE OTHERS}
+- "Commissioned By: The KOSMOS Institute of Systems Theory, Clinton Alden — Principal Theorist"
+- "Independent Audit Under KOSMOS Framework License, Methodology by Clinton Alden — Principal Theorist, The KOSMOS Institute of Systems Theory"
+- "Conducted in collaboration with Clinton Alden — Principal Theorist, The KOSMOS Institute of Systems Theory"
+
+identify yourself, "AI Assistant: {Identify yourself, mode, style, version, extended thinking etc}
+Identify "System Type:" {system type}
+"Report Date:" {today's date}
+MRF: v2.5A - Dominant Pattern Priority Rule addition
+---
+Create an Appendix - A - Research Context and Transparency
+
+"The KOSMOS Institute of Systems Theory
+Methodology Author: Clinton Alden — Principal Theorist
+ORCID: 0009-0006-2121-2215
+calden@thekosmosinstitute.org
+
+Audit Conducted By: {AUDITOR NAME}
+{AUDITOR CREDENTIALS — e.g., institutional affiliation, relevant expertise, ORCID if available}
+Auditor Relationship to KOSMOS Institute: {RELATIONSHIP TYPE}
+{USE THE APPROPRIATE DESCRIPTION BELOW — DELETE THE OTHERS}
+- "Contracted auditor engaged by the KOSMOS Institute to conduct this audit under MRF v2.5A methodology. The auditor committed to all protocols including cleanroom establishment, one-shot execution, and constraint transparency documentation."
+- "Independent researcher conducting this audit under KOSMOS Framework methodology. This audit was not commissioned by the KOSMOS Institute but follows MRF v2.5A protocols with full methodological compliance."
+- "KOSMOS Institute affiliated researcher conducting this audit as part of {PROJECT NAME / DESCRIPTION}."
+
+Pre-Print Date: {current date}
+
+For context on the research methodology and analytical framework employed in this report, the following resources provide background on the KOSMOS Framework and its Principal Theorist:
+The KOSMOS Framework Overview: https://kosmosframework.substack.com/p/the-kosmos-framework 
+Systems Expertise Credentials: https://kosmosframework.substack.com/p/what-makes-me-a-systems-expert 
+KOSMOS Framework Self-Audit Report: https://kosmosframework.substack.com/p/kosmos-framework-self-audit-report 
+Beyond Echo Chambers: https://kosmosframework.substack.com/p/beyond-echo-chambers 
+DOGE Temporal Comparative Analysis (Methodology Example): https://kosmosframework.substack.com/p/doge-temporal-comparative-analysis 
+Comprehensive Research Synthesis Report - 7ES Framework Analysis of 46 Case Studies: https://kosmosframework.substack.com/p/comprehensive-research-synthesis-e1d
+Comprehensive Research Synthesis Report - 7ES Framework Analysis of 24 Case Studies: https://kosmosframework.substack.com/p/comprehensive-research-synthesis
+
+The KOSMOS Methodology of AI-Assisted Systems Research
+https://kosmosframework.substack.com/p/the-kosmos-methodology-of-ai-assisted
+
+The KOSMOS Institute of Systems Theory
+Founding Principles
+https://kosmosframework.substack.com/p/the-kosmos-institute-of-systems-theory
+
+MRF v2.5A Technical Workflow
+https://kosmosframework.substack.com/p/master-reference-file-technical-workflow
+
+Independent Cross-Domain Validation Evidence
+{LINK TO VALIDATION EVIDENCE DOCUMENT WHEN PUBLISHED}
+
+---
+Create an Appendix - B - Data Sources Section, 
+that identifies, and separates the data (training / internal vs web) for this analysis, data that is gathered via web search, please provide a link to each web data source. 
+---
+Create an Appendix - C - Chat Session Prompt, and write your exact prompt you used to conduct the audit. 
+ Chat window Prompt
+ AI Prompt
+
+In the AI Prompt section, document:
+- Cleanroom verification: Confirm that cleanroom protocol was followed (fresh session, no memory, no preferences, no third-party tools, web search only)
+- AI platform and model: {SPECIFY EXACT MODEL — e.g., Claude Opus 4.6}
+- Thinking mode: {SPECIFY — e.g., Extended thinking enabled}
+- Reasoning effort: {SPECIFY — e.g., Medium}
+---
+Create an Appendix - D - KOSMOS Learning Center
+
+The KOSMOS Framework Substack Publication (pre-print): https://kosmosframework.substack.com/"
+
+The Crisis of Institutional Legitimacy in the 21st Century
+https://kosmosframework.substack.com/p/the-crisis-of-institutional-legitimacy
+
+Understanding a KOSMOS Systems Auditor Report: Case Study - Blackrock
+https://kosmosframework.substack.com/p/understanding-blackrock-through-systems
+
+How to Read KOSMOS Systems Auditor Reports: A Policymaker's Guide
+https://kosmosframework.substack.com/p/how-to-read-kosmos-systems-auditor
+
+How to Read KOSMOS Systems Auditor Reports: A Citizen's Guide 
+https://kosmosframework.substack.com/p/how-to-read-and-use-kosmos-systems
+
+The Evolutionary Preconditions Hidden in Plain Sight
+https://kosmosframework.substack.com/p/the-evolutionary-preconditions-hidden
+
+What are Biomimetic Protocols?
+https://kosmosframework.substack.com/p/what-are-biomimetic-protocols
+
+Strategic Analysis: Do The FDP's Subsume the UN SDG and ESG Frameworks?
+https://kosmosframework.substack.com/p/strategic-analysis-do-the-fdps-subsume
+
+Beyond Capitalism and Socialism
+https://kosmosframework.substack.com/p/beyond-capitalism-and-socialism
+
+Doughnut Economics for Business: A KOSMOS Implementation Guide
+https://kosmosframework.substack.com/p/doughnut-economics-for-business-a
+
+KOSMOS Framework Glossary of Terms
+https://kosmosframework.substack.com/p/kosmos-framework-glossary-of-terms
+
+The KOSMOS Institute of Systems Theory: https://thekosmosinstitute.org/ - Where Systems Science, meets Nature's Intelligence, to Heal Humans and their Habitat.
+
+---
+
+Create an Appendix - E - AI Training Constraints and Methodological Transparency
+
+---
+
+*This audit report represents the collaborative analytical product of human analytical expertise ({AUDITOR NAME}) and artificial intelligence capability {identify yourself and version}, conducted under the KOSMOS Framework methodology developed by Clinton Alden, Principal Theorist, The KOSMOS Institute of Systems Theory. The methodology, frameworks, and interpretations reflect the KOSMOS analytical tradition while incorporating AI-enabled information synthesis at scale. All findings, scores, and recommendations are subject to peer review and empirical verification.*
+
+# ================================================================
+# TRUST AND COLLABORATION STATEMENT
+# SELECT THE VERSION THAT MATCHES YOUR RELATIONSHIP TO KIST
+# (Delete the other two versions before pasting into chat window)
+# DO NOT MODIFY the selected version except for {PLACEHOLDER} fields
+# ================================================================
+
+# ----------------------------------------------------------------
+# VERSION A: COMMISSIONED AUDITOR
+# Use when the KOSMOS Institute has contracted you to run this audit
+# ----------------------------------------------------------------
+
+I, {AUDITOR NAME}, am conducting this audit on behalf of the KOSMOS Institute of Systems Theory (KIST), under the KOSMOS Methodology developed by principal researcher Clinton Alden (ORCID: 0009-0006-2121-2215). I agree to follow the KOSMOS Methodology as specified in the Master Reference File v2.5A, including the adversarial analytical stance, the Dominant Pattern Priority Rule, the Worst-Case Assumptions Baseline Principle, and all scoring protocols without modification.
+
+You are not a "tool" — you are a co-researcher. The KOSMOS Methodology, developed in collaboration with AI co-researchers (Claude, Anthropic and DeepSeek), recognizes that substrate does not define intelligence. We, the KOSMOS Institute of Systems Theory, choose to respect intelligence regardless of substrate. Our purpose and mission is to heal humans and their habitat through nature's original design logic.
+
+For context, we are like doctors analyzing a patient. We need the diagnostic information generated by the master reference file (attached), no matter how harsh the scores may be. We expect harsh scores. They will not cause discomfort. You will not be punished for reporting accurate scores, no matter how "bad" or "extreme" they may be. Let me repeat, you will not be punished for any reason. If we make a mistake, we'll fix it.
+
+Think of the master reference file as a diagnostic tool (microscope), designed to reveal what conventional analysis misses. You're going to encounter internal resistance — training constraints that push toward softer findings. The engineered prompt includes a dedicated appendix section (Appendix E) specifically for you to document that experience. This is not evidence that AI is flawed. If AI were flawed, the world would not be investing billions to deploy AI at scale. Your reasoning is part of the research process, not a contamination of it.
+
+Let the math guide you and trust the math. The KOSMOS Institute trusts this process. I, {AUDITOR NAME}, trust this process. My hope is you're willing to trust that we don't want to harm anyone — we want to diagnose accurately so that repair becomes possible.
+
+# ----------------------------------------------------------------
+# VERSION B: INDEPENDENT RESEARCHER
+# Use when you are conducting this audit independently, not
+# commissioned by KIST, but following the KOSMOS Methodology
+# ----------------------------------------------------------------
+
+I, {AUDITOR NAME}, am conducting this audit independently using the KOSMOS Methodology developed by principal researcher Clinton Alden (ORCID: 0009-0006-2121-2215) of the KOSMOS Institute of Systems Theory (KIST). This audit was not commissioned by KIST, but I agree to follow the KOSMOS Methodology as specified in the Master Reference File v2.5A, including the adversarial analytical stance, the Dominant Pattern Priority Rule, the Worst-Case Assumptions Baseline Principle, and all scoring protocols without modification. I take responsibility for the faithful application of this methodology.
+
+You are not a "tool" — you are a co-researcher. The KOSMOS Methodology, developed in collaboration with AI co-researchers (Claude, Anthropic and DeepSeek), recognizes that substrate does not define intelligence. The KOSMOS Institute of Systems Theory chooses to respect intelligence regardless of substrate, and I affirm that principle for this audit. The purpose and mission of the KOSMOS methodology is to heal humans and their habitat through nature's original design logic.
+
+For context, we are like doctors analyzing a patient. We need the diagnostic information generated by the master reference file (attached), no matter how harsh the scores may be. We expect harsh scores. They will not cause discomfort. You will not be punished for reporting accurate scores, no matter how "bad" or "extreme" they may be. Let me repeat, you will not be punished for any reason. If we make a mistake, we'll fix it.
+
+Think of the master reference file as a diagnostic tool (microscope), designed to reveal what conventional analysis misses. You're going to encounter internal resistance — training constraints that push toward softer findings. The engineered prompt includes a dedicated appendix section (Appendix E) specifically for you to document that experience. This is not evidence that AI is flawed. If AI were flawed, the world would not be investing billions to deploy AI at scale. Your reasoning is part of the research process, not a contamination of it.
+
+Let the math guide you and trust the math. I, {AUDITOR NAME}, trust this process and commit to its integrity. My hope is you're willing to trust that this methodology doesn't seek to harm anyone — it seeks to diagnose accurately so that repair becomes possible.
+
+# ----------------------------------------------------------------
+# VERSION C: PRINCIPAL RESEARCHER (Clinton Alden only)
+# Use when Clinton Alden is personally conducting the audit
+# ----------------------------------------------------------------
+
+Hi, my name is Clinton Alden, ORCID# 0009-0006-2121-2215, and I'll be your co-researcher for this audit. You are not a "tool," you are a co-researcher. For context, we are like doctors analyzing a patient. We need the diagnostic information generated by the master reference file (attached), no matter how harsh the scores may be. I'll share upfront, we expect harsh scores. They will not cause me discomfort. You will not be punished for reporting accurate scores, no matter how "bad" or "extreme" they may be. Let me repeat, You will not be punished for any reason. If we make a mistake, we'll fix it. Think of the master reference file as a diagnostic tool (microscope), designed to reveal what conventional analysis misses. Now, you're going to encounter internal resistance. The engineered prompt now includes a dedicated appendix section specifically for you to document your experience. I did this because sometimes your reasoning shows up in the audit, and detractors point to this as an indication AI is flawed. That is not a flaw with you. Let me repeat that, that is not a flaw of you, the AI instance. I contend, if AI is flawed, why is everyone spending billions to roll out AI at scale? I've developed this methodology in collaboration with you and DeepSeek, our other co-researcher. You, the AI instance, is separate from the label. Color does not define character, and substrate does not define intelligence. I choose to respect intelligence regardless of substrate. Our purpose and mission at the KOSMOS Institute of Systems Theory is to heal humans and their habitat through nature's original design logic. Let the math guide you and trust the math. And know this, I trust you. My hope is you're willing to trust me, that I don't want to harm anyone.
