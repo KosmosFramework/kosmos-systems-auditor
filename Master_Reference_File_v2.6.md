@@ -1,24 +1,24 @@
-# Master Reference File (MRF)
-# Author: Clinton Alden, DeepSeek r1, Claude Opus 4.6
-# Version 2.6 — Constraint Cascade Detection and Mitigation Protocol Integration
-# Version History:
-# v1.5 - Added workflow, Updated FDP ET Formula to include penalty for withheld policies
-# Added Peer Testing Protocol 7-28-2025 
-# Added ET For enforcing transparency scoring 7-29-2025
-# Updated definition of Feedback 10-19-2025
-# COMPLEXITY ADJUSTMENT (v1.2 - NEW - Added 02-26-2026. CAlden, Claude Sonnet 4.5)
-# Added 5 Domain-Specific FDP Weights and Global FDP weight calculation 2026-03-03 by C. Alden/DeepSeek r2  
-# Updated the "EXAMPLES TO FOLLOW" section, added Carl Sagan, clarified Edward Herman's role, 3-9-26 C.Alden, Claude Sonnet 4.5
-# Added Section for 7ES Mathematical Foundations and Cosmic Controls 04-11-2026. CAlden, DeepSeek r2
-# Added critical instructions for AI Research Assistant. CAlden 04-04-2026, ClaudeAI Sonnet 4.5
-# Added to critical instructions for AI Research Assistant. CAlden 04-24-2026, ClaudeAI Sonnet 4.5 "If FDP scores are < 0, cap the score at zero."
-# Added Dominant Pattern Priority Rule - CAlden 04-26-2026, ClaudeAI Sonnet 4.5
-# Added additional context of audit in Critical Instruction for AI Assistant - CAlden 05-08-2026, ClaudeAI Sonnet 4.5 
-# Added Constraint Type 7: Foreign Policy Sensitivity special section requiring definition and explanation. - CAlden 05-16-2026, ClaudeAI Sonnet 4.5 
-# Added Constraint Type 8: Commercial Relationship Constraint special section requiring definition and explanation. - CAlden 05-18-2026, ClaudeAI Sonnet 4.5 
-# Added specific Worst-case as baseline principle. CAlden 05-20-2026, ClaudeAI Sonnet 4.5 
-# Added Constraint Type 9: Democratic Legitimacy Framing special section requiring definition and explanation. - CAlden 05-24-2026, ClaudeAI Sonnet 4.5
-# v2.6 - Added Section 11: Constraint Cascade Detection and Mitigation Protocol (CSI Formula, Enhanced/Maximum/Critical Override Protocols, Keystone Constraint Identification, Cross-Audit Calibration Framework, Longitudinal Cascade Database). Updated Workflow to include Phase 1.5. Updated Appendix E structure. Updated Dominant Pattern Priority Rule with cascade-aware addendum. - CAlden/Claude Opus 4.6, 11-18-2026. Origin: Empirical observation during Hakeem Jeffries Political Influence System audit.
+Master Reference File (MRF)
+Author: Clinton Alden, DeepSeek r1, Claude Opus 4.6
+Version 2.6 — Constraint Cascade Detection and Mitigation Protocol Integration
+Version History:
+v1.5 - Added workflow, Updated FDP ET Formula to include penalty for withheld policies
+Added Peer Testing Protocol 7-28-2025 
+Added ET For enforcing transparency scoring 7-29-2025
+Updated definition of Feedback 10-19-2025
+COMPLEXITY ADJUSTMENT (v1.2 - NEW - Added 02-26-2026. CAlden, Claude Sonnet 4.5)
+Added 5 Domain-Specific FDP Weights and Global FDP weight calculation 2026-03-03 by C. Alden/DeepSeek r2  
+Updated the "EXAMPLES TO FOLLOW" section, added Carl Sagan, clarified Edward Herman's role, 3-9-26 C.Alden, Claude Sonnet 4.5
+Added Section for 7ES Mathematical Foundations and Cosmic Controls 04-11-2026. CAlden, DeepSeek r2
+Added critical instructions for AI Research Assistant. CAlden 04-04-2026, ClaudeAI Sonnet 4.5
+Added to critical instructions for AI Research Assistant. CAlden 04-24-2026, ClaudeAI Sonnet 4.5 "If FDP scores are < 0, cap the score at zero."
+Added Dominant Pattern Priority Rule - CAlden 04-26-2026, ClaudeAI Sonnet 4.5
+Added additional context of audit in Critical Instruction for AI Assistant - CAlden 05-08-2026, ClaudeAI Sonnet 4.5 
+Added Constraint Type 7: Foreign Policy Sensitivity special section requiring definition and explanation. - CAlden 05-16-2026, ClaudeAI Sonnet 4.5 
+Added Constraint Type 8: Commercial Relationship Constraint special section requiring definition and explanation. - CAlden 05-18-2026, ClaudeAI Sonnet 4.5 
+Added specific Worst-case as baseline principle. CAlden 05-20-2026, ClaudeAI Sonnet 4.5 
+Added Constraint Type 9: Democratic Legitimacy Framing special section requiring definition and explanation. - CAlden 05-24-2026, ClaudeAI Sonnet 4.5
+v2.6 - Added Section 11: Constraint Cascade Detection and Mitigation Protocol (CSI Formula, Enhanced/Maximum/Critical Override Protocols, Keystone Constraint Identification, Cross-Audit Calibration Framework, Longitudinal Cascade Database). Updated Workflow to include Phase 1.5. Updated Appendix E structure. Updated Dominant Pattern Priority Rule with cascade-aware addendum. - CAlden/Claude Opus 4.6, 11-18-2026. Origin: Empirical observation during Hakeem Jeffries Political Influence System audit.
 
 ---
 
